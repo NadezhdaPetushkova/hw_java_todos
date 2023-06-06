@@ -26,7 +26,7 @@ public class TodosTest {
     }
 
     @Test
-    public void TodosSearchWithOutWord() {
+    public void TodosSearchWithoutWord() {
 
         SimpleTask simpleTask = new SimpleTask(5, "Позвонить родителям");
 
