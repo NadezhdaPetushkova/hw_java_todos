@@ -60,7 +60,7 @@ public class TasksTest {
     @Test
     public void testAnswerFalseWhenQueryNotInTopicOrProject() {
         Meeting meeting = new Meeting(1, "Сделать домашнее задание в Нетологии", "Обучение QA engineer", "25.01.2023");
-        String query = "25.01.2023";
+        String query = "Посмотреть сериал";
         boolean expected = false;
         boolean actual = meeting.matches(query);
         Assertions.assertEquals(expected, actual);
